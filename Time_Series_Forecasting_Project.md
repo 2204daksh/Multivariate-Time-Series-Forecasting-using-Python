@@ -13,7 +13,7 @@ We import the `pandas` library to handle data manipulation tasks throughout the 
 ## 2. Loading the Data
 ```python
 # Loading the stocks data
-stocks_data = pd.read_csv(r"C:\Users\daksh\Desktop\Project\stocks.csv")
+stocks_data = pd.read_csv(r"stocks.csv")
 ```
 ### Explanation:
 The data is loaded from a CSV file into a `DataFrame`. This dataset includes historical stock information with columns for stock ticker, date, open, high, low, close, adjusted close, and volume.
